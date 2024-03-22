@@ -26,3 +26,8 @@ public class Circulo {
         return Math.PI * radio * radio;
     }
 }
+
+/*
+ * Ejercicio 2:
+ * No se puede ejecutar la clase Circulo porque le falta el metodo "main()"// 
+ */
