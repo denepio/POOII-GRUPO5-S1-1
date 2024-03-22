@@ -22,4 +22,10 @@ public class CirculoTest {
     }
 }
 
+//Para ejecutar ambos ejercicios, que son programas Java que utilizan el paradigma de programación orientada a objetos (POO), se siguen los siguientes pasos comunes:
+Guarda el código del programa Circulo en un archivo llamado Circulo.java.
+Guarda el código del programa CirculoTest en un archivo llamado CirculoTest.java.
+Abre una terminal y navega al directorio donde guardaste los archivos.
+Compila ambos archivos Java con el comando: javac Circulo.java CirculoTest.java.
+Ejecuta el programa CirculoTest con el comando: java CirculoTest.
 
