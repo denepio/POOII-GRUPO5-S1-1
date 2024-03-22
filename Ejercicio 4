@@ -1,0 +1,46 @@
+
+  A)
+El constructor es un método especial en una clase que se llama automáticamente cuando se crea una instancia (objeto) de esa clase.
+
+  B)
+Para recuperar el radio del círculo, se utiliza el método getRadio().
+
+  C)
+Los atributos son privados para encapsular el estado de la clase y protegerlos de modificaciones no deseadas desde fuera de la clase.
+
+  D)
+Si se intenta acceder directamente a los atributos desde el método main() sin utilizar los métodos de acceso públicos se producirá un error de compilación debido a que los
+  atributos son privados y no son accesibles desde fuera de la clase.
+
+  E)
+Si intentas modificar directamente el atributo area del círculo desde el método main(), se producirá un error de compilación porque area no es un atributo de la clase Circulo.
+
+  F)
+Se producirá un error de compilación porque radius no es un atributo de la clase Circulo.
+  Debería ser getRadio() para acceder al radio del círculo.
+
+  G)
+Se producirá un error de compilación porque radius no es un atributo de la clase Circulo.
+  Debería ser setRadio(42.0) si se desea modificar el radio del círculo.
+
+  H)
+Para modificar el valor de un atributo de la clase Circulo.java, se utilizan los métodos setRadio() y setColor().
+
+  I)
+Esto se puede hacer creando una instancia de Circulo y llamando a los métodos setRadio() y setColor() para modificar los valores por defecto.
+
+  J) 
+La palabra clave this se utiliza en Java para hacer referencia al objeto actual dentro de una clase.
+  Se puede usar para acceder a los campos de la clase actual, acceder a métodos de la clase actual o pasar el objeto actual como un argumento a otro método.
+
+  K) 
+
+El método toString() se utiliza para proporcionar una representación de cadena de un objeto.
+  Permite definir cómo se debe mostrar un objeto como una cadena cuando se utiliza en contexto de concatenación de cadenas o cuando se imprime.
+
+  I) 
+
+@Override
+public String toString() {
+    return "Circulo [radio=" + radio + ", color=" + color + "]";
+}
